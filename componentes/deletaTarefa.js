@@ -1,4 +1,4 @@
-const BotaoDeleta = () => { 
+export const BotaoDeleta = () => { 
     const botaoDeleta = document.createElement('button')
     botaoDeleta.classList.add('delete')
 
@@ -19,5 +19,3 @@ const deletarTarefa = (evento) => {
     return botaoDeleta
 
 }
-
-export default BotaoDeleta
